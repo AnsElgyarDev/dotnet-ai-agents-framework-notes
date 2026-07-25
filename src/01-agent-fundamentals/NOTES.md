@@ -11,7 +11,7 @@
 
 ##  Components of Microsoft Agent Framework
 
-![Microsoft Agent Framework Architecture](../../docs/visuals/framework-components.png)
+![Microsoft Agent Framework Architecture](../../docs/Visuals/framework-components.png)
 
 ### 1. Agents (Autonomous Brains)
 
