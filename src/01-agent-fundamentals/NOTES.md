@@ -1,15 +1,15 @@
 # 01. Agent Framework Fundamentals
 
-## 📌 Theoretical Foundations & Architecture
+##  Theoretical Foundations & Architecture
 
-### 🧠 Overview
+###  Overview
 
 - **Microsoft Agent Framework (AF):** The modern successor to **Semantic Kernel** and **AutoGen**—Microsoft's foundational frameworks for building multi-agent systems and agentic workflows in .NET.
 - Built on top of `Microsoft.Extensions.AI` (specifically leveraging abstractions like `IChatClient`), allowing seamless provider switching (OpenAI, DeepSeek, Azure OpenAI, etc.) without changing core application logic.
 
 ---
 
-## 🧩 Components of Microsoft Agent Framework
+##  Components of Microsoft Agent Framework
 
 ![Microsoft Agent Framework Architecture](../../docs/visuals/framework-components.png)
 
@@ -32,7 +32,7 @@ Software components capable of processing LLM interactions:
 
 ---
 
-## 🔑 Key Takeaways
+##  Key Takeaways
 
 - **Decoupling:** Workflows handle _Structure_, Agents handle _Reasoning_, and `Microsoft.Extensions.AI` handles _LLM Communication_.
 - **Flexibility:** You can use Agents standalone (e.g., in simple Console Apps or Web APIs) or embed them within complex Workflows when business processes require strict orchestration.
