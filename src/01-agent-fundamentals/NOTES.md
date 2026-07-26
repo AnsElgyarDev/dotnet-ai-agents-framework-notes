@@ -21,8 +21,8 @@ Receiving Responses: Normalizing completion outputs regardless of the underlying
 
 #### 3️. Elevating to an AI Agent (.AsAIAgent())
 Transform the standard chat client into an autonomous AI Agent using the .AsAIAgent() extension method.
-
- Why convert a Chatbot to an AI Agent?
+> [!IMPORTANT]
+> Why convert a Chatbot to an AI Agent?
 
 System Instructions (Personas): Define explicit roles and system prompts (e.g., "You are a Senior C# Backend Engineer...").
 
