@@ -26,9 +26,9 @@ Transform the standard chat client into an autonomous AI Agent using the .AsAIAg
 > 
 > Transforming a standard LLM chatbot into an **AI Agent** unlocks three core capabilities:
 > 
->   *** System Instructions (Personas):** Defines explicit roles and system prompts (e.g., *"You are a Senior C# Backend Engineer..."*).
->   *** Tools & Function Calling:** Empowers the model to invoke native C# methods, query database repositories, or read/write local files.
->   *** State & Memory Management (`AgentSession`): Maintains, inspects, and persists conversation history across multi-turn exchanges.
+>      System Instructions (Personas):** Defines explicit roles and system prompts (e.g., *"You are a Senior C# Backend Engineer..."*).
+>      Tools & Function Calling:** Empowers the model to invoke native C# methods, query database repositories, or read/write local files.
+>      State & Memory Management (`AgentSession`): Maintains, inspects, and persists conversation history across multi-turn exchanges.
 
 #### 4️. Execution (RunAsync)
 Trigger the agent to solve a task by passing your user prompt to .RunAsync(). The agent evaluates system instructions, executes required tools/functions automatically, and returns the structured final answer.
