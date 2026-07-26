@@ -31,4 +31,3 @@ State & Memory Management (AgentSession): Maintain, inspect, and persist convers
 
 4️⃣ Execution (RunAsync)
 Trigger the agent to solve a task by passing your user prompt to .RunAsync(). The agent evaluates system instructions, executes required tools/functions automatically, and returns the structured final answer.
-```
