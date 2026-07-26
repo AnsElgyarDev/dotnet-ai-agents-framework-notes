@@ -1,4 +1,4 @@
-## 🚀 Zero to First Prompt: How .NET Talks to an LLM Agent
+##  Zero to First Prompt: How .NET Talks to an LLM Agent
 
 To connect your .NET application to an LLM and encapsulate it as an **AI Agent**, you need to navigate through **4 sequential stages**:
 
