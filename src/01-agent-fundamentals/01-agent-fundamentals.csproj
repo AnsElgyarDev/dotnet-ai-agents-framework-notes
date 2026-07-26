@@ -6,6 +6,22 @@
     <RootNamespace>_01_agent_fundamentals</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);0168;0219</NoWarn>
+    <UserSecretsId>428ef6a4-97ca-45c5-bc83-c4117cda76a9</UserSecretsId>
   </PropertyGroup>
+  <ItemGroup>
+  <None Update="appsettings.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Google_GenerativeAI" Version="3.6.7" />
+    <PackageReference Include="Microsoft.Agents.AI" Version="1.15.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.8.1" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.8.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.10" />
+    <PackageReference Include="Mscc.GenerativeAI" Version="3.1.0" />
+  </ItemGroup>
 
 </Project>
