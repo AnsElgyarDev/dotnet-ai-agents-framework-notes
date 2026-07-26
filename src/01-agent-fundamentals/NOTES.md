@@ -7,10 +7,10 @@ To connect your .NET application to an LLM and encapsulate it as an **AI Agent**
 ```
 The 4-Step Pipeline
 
-1️. Provider Connection (Raw Client)
+#### 1️. Provider Connection (Raw Client)
 Establish a direct connection between your application and the LLM provider's server (e.g., using OpenAIClient or custom HttpClient). This step handles authentication, API keys, and low-level HTTP transport.
 
-2️. Standardizing via Abstraction (IChatClient)
+#### 2️. Standardizing via Abstraction (IChatClient)
 Convert the raw provider client into a unified, provider-agnostic interface (IChatClient). This interface standardizes:
 
 Receiving Prompts: Formatting inputs consistently.
@@ -19,10 +19,10 @@ Sending Requests: Abstracting model-specific REST payloads.
 
 Receiving Responses: Normalizing completion outputs regardless of the underlying LLM vendor (e.g., Gemini, OpenAI, DeepSeek).
 
-3️. Elevating to an AI Agent (.AsAIAgent())
+#### 3️. Elevating to an AI Agent (.AsAIAgent())
 Transform the standard chat client into an autonomous AI Agent using the .AsAIAgent() extension method.
 
-💡 Why convert a Chatbot to an AI Agent?
+ Why convert a Chatbot to an AI Agent?
 
 System Instructions (Personas): Define explicit roles and system prompts (e.g., "You are a Senior C# Backend Engineer...").
 
@@ -30,5 +30,5 @@ Tools & Function Calling: Empower the model to invoke native C# methods, query d
 
 State & Memory Management (AgentSession): Maintain, inspect, and persist conversation history across multi-turn exchanges.
 
-4️. Execution (RunAsync)
+#### 4️. Execution (RunAsync)
 Trigger the agent to solve a task by passing your user prompt to .RunAsync(). The agent evaluates system instructions, executes required tools/functions automatically, and returns the structured final answer.
