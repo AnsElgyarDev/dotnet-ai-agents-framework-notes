@@ -4,6 +4,7 @@ To connect your .NET application to an LLM and encapsulate it as an **AI Agent**
 
 ```text
 [ Credentials / Config ] ──> [ Provider Client ] ──> [ IChatClient Abstraction ] ──> [ Agent Wrapper ] ──> [ Execution ]
+```
 🛠️ The 4-Step Pipeline
 1️⃣ Provider Connection (Raw Client)
 Establish a direct connection between your application and the LLM provider's server (e.g., using OpenAIClient or custom HttpClient). This step handles authentication, API keys, and low-level HTTP transport.
